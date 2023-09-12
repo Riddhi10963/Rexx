@@ -22,7 +22,6 @@ const BuyRexx = () => {
           className="mt-[8px] md:px-10 font-normal sm:text-xl text-sm text-center text-secondary-white"
         >
           <h2 className="text-[#9548ee] text-left  font-bold py-4">
-            {" "}
             Download the Official Trust Wallet App
           </h2>
           <p className="text-left">

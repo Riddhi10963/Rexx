@@ -19,7 +19,7 @@ const RexContract = () => {
         <TitleTextTyping title="Rexx Contract" textStyle="text-center" />
         <motion.p
           variants={fadeIn("up", "tween", 0.2, 1)}
-          className="mt-[8px] md:px-10 font-normal sm:text-xl text-sm text-center text-secondary-white"
+          className="mt-[8px] md:px-10 font-normal text-sm text-center text-secondary-white"
         >
           <h2 className="text-[#9548ee] border shadow-gray-200 hover:shadow-purple-400 p-4 rounded text-left  font-bold py-4">
             0xfd140b8d01ceaa28defb38b837b7928c7c2f085d58fb149db905ce78a12ab1dc
