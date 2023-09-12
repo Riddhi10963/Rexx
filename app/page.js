@@ -10,6 +10,7 @@ import {
   Mission,
   OurOffering,
   Projects,
+  RexContract,
   Roadmap,
   RoadmapDesign_2,
   Tokenomics,
@@ -41,6 +42,7 @@ export default function Home() {
       {/* <Roadmap /> */}
       <RoadmapDesign_2 />
       <BuyRexx />
+      <RexContract />
       <Faq />
       <GetInTouch />
       <Footer />

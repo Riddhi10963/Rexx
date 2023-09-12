@@ -27,7 +27,7 @@ const FaqCard = ({ title, content }) => {
           expanded ? "max-h-40" : "max-h-0"
         }`}
       >
-        <p className="pb-4 text-left text-xs font-normal tracking-[0.01em] opacity-60 sm:text-sm leading-[28px]">
+        <p className="pb-4 text-white text-left text-xs font-normal tracking-[0.01em] opacity-60 sm:text-sm leading-[28px]">
           {content}
         </p>
       </div>

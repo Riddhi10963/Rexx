@@ -7,7 +7,7 @@ import Tokenomics from "./Tokenomics";
 import Faq from "./Faq";
 import GetInTouch from "./GetInTouch";
 import BuyRexx from "./BuyRexx";
-
+import RexContract from "./RexContract";
 export {
   Hero,
   HeroAnimation,
@@ -18,4 +18,5 @@ export {
   Faq,
   GetInTouch,
   BuyRexx,
+  RexContract,
 };
