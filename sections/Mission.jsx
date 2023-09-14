@@ -16,17 +16,13 @@ const Mission = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
-        <TitleTextTyping
-          title="Mission & Vision"
-          textStyle="text-center"
-        />
+        <TitleTextTyping title="Mission & Vision" textStyle="text-center" />
         <motion.p
           variants={fadeIn("up", "tween", 0.2, 1)}
           className="mt-[8px] md:px-10 font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
         >
-          Our mission at{" "}
-          <span className="font-bold text-[#9548ee]">Rexx</span> is to
-          empower individuals and businesses by providing a comprehensive,
+          Our mission at <span className="font-bold text-[#9548ee]">Rexx</span>{" "}
+          is to empower individuals and businesses by providing a comprehensive,
           secure,and user-friendly{" "}
           <span className="font-bold text-[#9548ee]">
             blockchain ecosystem.
@@ -36,16 +32,6 @@ const Mission = () => {
           <span className="font-bold text-[#9548ee]">
             gaming, finance, news, supply chain, and more.
           </span>{" "}
-          {/* We envision a world where blockchain technology is seamlessly
-          integrated into everyday life, fostering{" "}
-          <span className="font-bold text-[#9548ee]">
-            transparency, efficiency, and trust.{" "}
-          </span>
-          Through the Rexx Ecosystem, we strive to revolutionize
-          traditional industries and drive forward the{" "}
-          <span className="font-bold text-[#9548ee]">
-            digital economy.
-          </span> */}
         </motion.p>
         <motion.img
           variants={fadeIn("up", "tween", 0.3, 1)}

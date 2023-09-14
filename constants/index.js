@@ -76,6 +76,62 @@ export const ourOffering = [
   },
 ];
 
+const backers = [
+  {
+    id: 1,
+    imgUrl: "/Bakers/Backers1",
+    name: "Backer 1",
+  },
+  {
+    id: 2,
+    imgUrl: "/Bakers/Backers2",
+    name: "Backer 2",
+  },
+  {
+    id: 3,
+    imgUrl: "/Bakers/Backers3",
+    name: "Backer 3",
+  },
+  {
+    id: 4,
+    imgUrl: "/Bakers/Backers4",
+    name: "Backer 4",
+  },
+];
+
+const advisors = [
+  {
+    id: 1,
+    imgUrl: "/Bakers/Backer1",
+    name: "Michael Terpin",
+    about: "Crypto OG, popularly known as Crypto Godfather (CNBC)",
+  },
+  {
+    id: 2,
+    imgUrl: "/Bakers/Backer1",
+    name: "Min Kim",
+    about: "International Growth Lead, Canva",
+  },
+  {
+    id: 3,
+    imgUrl: "/Bakers/Backer1",
+    name: "Michael Onghai",
+    about: "Serial Entrepreneur & Investor",
+  },
+  {
+    id: 4,
+    imgUrl: "/Bakers/Backer1",
+    name: "Grant Gunderson",
+    about: "Web3 Advisor & Investor, Worked closely with Tim Draper",
+  },
+  {
+    id: 5,
+    imgUrl: "/Bakers/Backer1",
+    name: "Jason Fernandes",
+    about: "Co-founder, AdLunam",
+  },
+];
+
 export const exploreProjects = [
   {
     id: "project-1",

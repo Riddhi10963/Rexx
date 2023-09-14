@@ -16,6 +16,7 @@ import {
   RoadmapDesign_2,
   Tokenomics,
   ExplainerVideo,
+  BackerPartner,
 } from "@/sections";
 import { Suspense, useEffect, useState } from "react";
 
@@ -40,6 +41,7 @@ export default function Home() {
       <OurOffering />
       <Mission />
       <WhyRexx />
+      <BackerPartner />
       {/* <Projects /> */}
       <Tokenomics />
       {/* <Roadmap /> */}

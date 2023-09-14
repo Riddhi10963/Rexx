@@ -31,18 +31,6 @@ const Faq = () => {
           className="h-[2px] md:w-1/12 w-[20%]  bg-primary-red mt-[-40px]"
         />
 
-        {/* <div className="text-center font-normal text-lg mb-5">
-          We are a huge marketplace dedicated to connecting great artists
-          of all NFT with their fans and unique token collectors!
-        </div> */}
-        {/* <motion.p
-          variants={fadeIn("up", "tween", 0.2, 1)}
-          className="mt-[8px] md:px-10 font-normal sm:text-[20px] text-[14px] text-center text-secondary-white"
-        >
-          We are a huge marketplace dedicated to connecting great artists
-          of all NFT with their fans and unique token collectors!
-        </motion.p> */}
-
         <motion.div
           variants={fadeIn("up", "tween", 0.5, 1)}
           className="mx-auto flex w-full flex-col items-center justify-center"

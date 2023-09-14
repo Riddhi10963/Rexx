@@ -19,7 +19,14 @@ const ExplainerVideo = () => {
       >
         <TitleTextTyping title="Demo Video" textStyle="text-center" />
         <div className={`${styles.paddings}items-center justify-center`}>
-          <ReactPlayer ref={playerRef} url={VIDEO_PATH} controls={true} />
+          <ReactPlayer
+            height={350}
+            width={500}
+            ref={playerRef}
+            url={VIDEO_PATH}
+            controls={true}
+            className="max-h-[70%] shrink-0 m-5 rounded"
+          />
         </div>
       </motion.div>
     </section>
