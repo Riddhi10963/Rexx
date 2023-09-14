@@ -18,7 +18,7 @@ const ExplainerVideo = () => {
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col rounded`}
       >
         <TitleTextTyping title="Demo Video" textStyle="text-center" />
-        <div className={`${styles.paddings}items-center justify-center`}>
+        <div className="items-center justify-center shadow-[#9548ee] ">
           <ReactPlayer
             height={350}
             width={500}

@@ -87,11 +87,7 @@
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(
-    -90.13deg,
-    #00cea8 1.9%,
-    #bf61ff 97.5%
-  );
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
 .feedback-gradient {
@@ -114,4 +110,21 @@
 
   background: #65c4fa;
   filter: blur(150px);
+}
+.moving-text {
+  animation: moveText 30s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(
+      100%
+    ); /* Start from the right edge of the container */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left edge of the container */
+  }
 }
