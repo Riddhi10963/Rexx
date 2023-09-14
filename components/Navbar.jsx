@@ -16,13 +16,13 @@ const Navbar = () => (
     className={`${styles.xPaddings} py-8 relative`}
   >
     {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
-    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
+    <div className={`${styles.innerWidth} flex justify-between`}>
       <img
         src="/Rexx Logo.png"
         alt="rexxlogo"
         className="w-auto md:h-[28px] h-[30px] object-contain"
       />
-      <div className="flex gap-4 md:gap-10">
+      <div className="flex  md:gap-10">
         <CustomButton
           btnBuyText="Buy REXX"
           btnType="buyBtn"

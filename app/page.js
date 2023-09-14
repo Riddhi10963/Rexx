@@ -8,12 +8,14 @@ import {
   Hero,
   HeroAnimation,
   Mission,
+  WhyRexx,
   OurOffering,
   Projects,
   RexContract,
   Roadmap,
   RoadmapDesign_2,
   Tokenomics,
+  ExplainerVideo,
 } from "@/sections";
 import { Suspense, useEffect, useState } from "react";
 
@@ -37,12 +39,14 @@ export default function Home() {
       <HeroAnimation />
       <OurOffering />
       <Mission />
+      <WhyRexx />
       {/* <Projects /> */}
       <Tokenomics />
       {/* <Roadmap /> */}
       <RoadmapDesign_2 />
       <BuyRexx />
       <RexContract />
+      <ExplainerVideo />
       <Faq />
       <GetInTouch />
       <Footer />

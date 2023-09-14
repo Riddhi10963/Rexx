@@ -8,6 +8,8 @@ import Faq from "./Faq";
 import GetInTouch from "./GetInTouch";
 import BuyRexx from "./BuyRexx";
 import RexContract from "./RexContract";
+import WhyRexx from "./WhyRexx";
+import ExplainerVideo from "./ExplainerVideo";
 export {
   Hero,
   HeroAnimation,
@@ -19,4 +21,6 @@ export {
   GetInTouch,
   BuyRexx,
   RexContract,
+  WhyRexx,
+  ExplainerVideo,
 };
