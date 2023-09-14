@@ -39,7 +39,8 @@ const Navbar = () => (
     <div className="w-full mt-6">
       <div className="moving-text  top-[4rem] z-[1] flex items-center gap-2 whitespace-nowrap md:top-[6rem] text-white">
         <p>
-          Pre-sale is about to live <span className="text-red-500">Live!</span>
+          Discover the evolution of gaming with GameFi & the metaverse{" "}
+          <span className="text-red-500">Live!</span>
         </p>
         <a href="" target="_blank">
           <button className="rounded-lg border border-white/60 px-1 py-0.5">
@@ -48,8 +49,8 @@ const Navbar = () => (
         </a>
         <p>25 sept 2023</p>
         <p>
-          Pre-sale is about to live <span className="text-red-500">Live!</span>{" "}
-          Rexx Pre sale page
+          Discover the evolution of gaming with GameFi & the metaverse{" "}
+          <span className="text-red-500">Live!</span> Rexx Pre sale page
         </p>
         <a href="" target="_blank">
           <button className="rounded-lg border border-white/60 px-1 py-0.5">
@@ -58,8 +59,8 @@ const Navbar = () => (
         </a>
         <p>25 sept 2023</p>
         <p>
-          Pre-sale is about to live <span className="text-red-500">Live!</span>{" "}
-          Rexx Pre sale page
+          Discover the evolution of gaming with GameFi & the metaverse{" "}
+          <span className="text-red-500">Live!</span> Rexx Pre sale page
         </p>
         <a href="" target="_blank">
           <button className="rounded-lg border border-white/60 px-1 py-0.5">
@@ -68,8 +69,8 @@ const Navbar = () => (
         </a>
         <p>25 sept 2023</p>
         <p>
-          Pre-sale is about to live <span className="text-red-500">Live!</span>{" "}
-          Rexx Pre sale page
+          Discover the evolution of gaming with GameFi & the metaverse{" "}
+          <span className="text-red-500">Live!</span> Rexx Pre sale page
         </p>
         <a href="" target="_blank">
           <button className="rounded-lg border border-white/60 px-1 py-0.5">
@@ -78,8 +79,8 @@ const Navbar = () => (
         </a>
         <p>25 sept 2023</p>
         <p>
-          Pre-sale is about to live <span className="text-red-500">Live!</span>{" "}
-          Rexx Pre sale page
+          Discover the evolution of gaming with GameFi & the metaverse{" "}
+          <span className="text-red-500">Live!</span> Rexx Pre sale page
         </p>
         <a href="" target="_blank">
           <button className="rounded-lg border border-white/60 px-1 py-0.5">
@@ -88,8 +89,8 @@ const Navbar = () => (
         </a>
         <p>25 sept 2023</p>
         <p>
-          Pre-sale is about to live <span className="text-red-500">Live!</span>{" "}
-          Rexx Pre sale page
+          Discover the evolution of gaming with GameFi & the metaverse{" "}
+          <span className="text-red-500">Live!</span> Rexx Pre sale page
         </p>
         <a href="" target="_blank">
           <button className="rounded-lg border border-white/60 px-1 py-0.5">
