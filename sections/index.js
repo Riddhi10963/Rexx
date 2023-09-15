@@ -11,6 +11,8 @@ import RexContract from "./RexContract";
 import WhyRexx from "./WhyRexx";
 import ExplainerVideo from "./ExplainerVideo";
 import BackerPartner from "./BackerPartner";
+import AuditedBy from "./AuditedBy";
+
 export {
   Hero,
   HeroAnimation,
@@ -25,4 +27,5 @@ export {
   WhyRexx,
   ExplainerVideo,
   BackerPartner,
+  AuditedBy,
 };

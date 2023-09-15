@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
 import styles from "@/styles";
 import { fadeIn, staggerContainer } from "@/utils/motion";
-import { TitleTextTyping } from "@/components/CustomTexts";
-const VIDEO_PATH = "https://youtu.be/0BIaDVnYp2A";
+import { TitleText, TitleTextTyping } from "@/components/CustomTexts";
+import { projectVideos } from "@/constants";
 
 const ExplainerVideo = () => {
   const playerRef = useRef(null);
@@ -15,18 +15,19 @@ const ExplainerVideo = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col rounded`}
+        className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col rounded gap-5`}
       >
-        <TitleTextTyping title="Demo Video" textStyle="text-center" />
+        <TitleText title="Rexx Explainer Video" textStyle="text-center" />
         <div className="items-center justify-center shadow-[#9548ee] ">
-          <ReactPlayer
+          {/* <ReactPlayer
             height={350}
             width={500}
             ref={playerRef}
-            url={VIDEO_PATH}
+            url={projectVideos.rexxExplainerVideo}
             controls={true}
             className="max-h-[70%] shrink-0 m-5 rounded"
-          />
+          /> */}
+          <video className="h-[350px] w-full rounded-lg" ref={playerRef} src={projectVideos.rexxExplainerVideo} controls />
         </div>
       </motion.div>
     </section>

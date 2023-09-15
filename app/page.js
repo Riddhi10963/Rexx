@@ -17,6 +17,7 @@ import {
   Tokenomics,
   ExplainerVideo,
   BackerPartner,
+  AuditedBy,
 } from "@/sections";
 import { Suspense, useEffect, useState } from "react";
 
@@ -45,6 +46,7 @@ export default function Home() {
       {/* <Projects /> */}
       <Tokenomics />
       {/* <Roadmap /> */}
+      <AuditedBy />
       <RoadmapDesign_2 />
       <BuyRexx />
       <RexContract />
