@@ -216,12 +216,14 @@ export const newFeatures = [
   {
     imgUrl: "/vrpano.svg",
     title: "A new world",
-    subtitle: "we have the latest update with new world for you to try never mind",
+    subtitle:
+      "we have the latest update with new world for you to try never mind",
   },
   {
     imgUrl: "/headset.svg",
     title: "More realistic",
-    subtitle: "In the latest update, your eyes are narrow, making the world more realistic than ever",
+    subtitle:
+      "In the latest update, your eyes are narrow, making the world more realistic than ever",
   },
 ];
 
@@ -276,7 +278,10 @@ export const roadmapDetails = [
     icon: "/meta.png",
     iconBg: "#E6DEDD",
     date: "Q4 2023",
-    points: ["Start the IDO sale with a defined start and end date.", "Start the IEO sale with a defined start and end date."],
+    points: [
+      "Start the IDO sale with a defined start and end date.",
+      "Start the IEO sale with a defined start and end date.",
+    ],
   },
   {
     title: "Foundation and Development of ReXXchange and ReXXpress",
@@ -313,7 +318,8 @@ export const roadmapDetails = [
     ],
   },
   {
-    title: "Launch of ReXXpress; Beta Testing of ReXXverse; Development of ReXXconnect",
+    title:
+      "Launch of ReXXpress; Beta Testing of ReXXverse; Development of ReXXconnect",
     company_name: "Meta",
     icon: "/meta.png",
     iconBg: "#E6DEDD",
@@ -381,7 +387,8 @@ export const roadmapDetails = [
     ],
   },
   {
-    title: "Launch of ReXXplorer and ReXXVault; Beta Testing of ReXXchain; Development of ReXXpay",
+    title:
+      "Launch of ReXXplorer and ReXXVault; Beta Testing of ReXXchain; Development of ReXXpay",
     company_name: "Meta",
     icon: "/meta.png",
     iconBg: "#E6DEDD",
@@ -416,29 +423,35 @@ export const roadmapDetails = [
 
 export const faqsData = [
   {
-    title: "What makes 'INFYNFT' unique compared to other platforms ?",
+    title: "What is Rexx Coin?",
     content:
-      "Unlike traditional NFT platforms, INFYNFT leverages the power of Web3 technology to provide a decentralized and boundless experience. The platform also offers an immersive metaverse environment, where users can engage with NFTs in a dynamic and interactive way.",
+      "Rexx Coin is a state-of-the-art cryptocurrency designed to revolutionize various industries through its comprehensive ecosystem. By leveraging blockchain technology, Rexx Coin aims to address challenges in sectors like gaming, news reporting, supply chain management, and more, offering solutions that prioritize transparency, security, and decentralization.",
   },
   {
-    title: "How can I participate as an artist in INFYNFT ?",
+    title: "How is Rexx Coin different from other cryptocurrencies?",
     content:
-      "Unlike traditional NFT platforms, INFYNFT leverages the power of Web3 technology to provide a decentralized and boundless experience. The platform also offers an immersive metaverse environment, where users can engage with NFTs in a dynamic and interactive way.",
+      "Rexx Coin isn't just another cryptocurrency; it's an entire ecosystem. Beyond its native token, the Rexx ecosystem encompasses projects ranging from decentralized games (ReXXverse) and a crypto news portal (ReXXpress) to advanced platforms like a decentralized world map (ReXXplorer) and a gaming industry payment solution (ReXXpay). Each project is meticulously crafted to address specific industry challenges and provide unparalleled solutions.",
   },
   {
-    title: "How does it work ?",
+    title: "How can I purchase Rexx Coin?",
     content:
-      "Unlike traditional NFT platforms, INFYNFT leverages the power of Web3 technology to provide a decentralized and boundless experience. The platform also offers an immersive metaverse environment, where users can engage with NFTs in a dynamic and interactive way.",
+      "Rexx Coin can be acquired through our Initial Coin Offering (ICO), followed by listings on various centralized and decentralized exchanges. To ensure you're acquiring Rexx Coins safely, always make transactions through our official website or reputable exchanges. Don't forget to look for the Buy Rexx button on our homepage!",
   },
   {
-    title: "How does it work ?",
+    title: "What measures does Rexx Coin take to ensure security and privacy?",
     content:
-      "Unlike traditional NFT platforms, INFYNFT leverages the power of Web3 technology to provide a decentralized and boundless experience. The platform also offers an immersive metaverse environment, where users can engage with NFTs in a dynamic and interactive way.",
+      "Security and privacy are paramount in the Rexx ecosystem. We employ top-tier encryption protocols, rigorous key management systems, and regular security audits to ensure the utmost protection of user data and assets. Additionally, our platforms are designed to preserve user privacy, giving you peace of mind with every transaction and interaction.",
   },
   {
-    title: "How does it work ?",
+    title: "What is the utility of the Rexx Coin within its ecosystem?",
     content:
-      "Unlike traditional NFT platforms, INFYNFT leverages the power of Web3 technology to provide a decentralized and boundless experience. The platform also offers an immersive metaverse environment, where users can engage with NFTs in a dynamic and interactive way.",
+      "Rexx Coin is the native token and lifeblood of the Rexx ecosystem. It serves multiple purposes, from facilitating transactions and payments within our platforms to granting users special privileges and rewards. By holding or using Rexx Coins, users can unlock enhanced features, participate in governance decisions, and benefit from various incentives integrated across our projects.",
+  },
+  {
+    title:
+      "I' m new to cryptocurrencies. Where can I learn more about Rexx Coin and its projects?",
+    content:
+      "Welcome to the future of the digital world! We've dedicated a section of our website to education, where beginners can find detailed explanations, tutorials, and insights about Rexx Coin and its ecosystem. Furthermore, our community forums and social media platforms are filled with helpful enthusiasts and experts eager to assist newcomers. Join us, and let's shape the future together!",
   },
 ];
 
