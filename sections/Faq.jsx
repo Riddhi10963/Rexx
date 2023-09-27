@@ -17,31 +17,17 @@ const Faq = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col gap-10`}
       >
-        <motion.h1
-          variants={textVariant(1.1)}
-          className={`${styles.sectionHeadText} text-center`}
-          // className="text-[32px] font-semibold leading-[48px]"
-        >
-          FAQ
-          <span className="font-thin md:text-[40px] text-[20px] ">s</span>
+        <motion.h1 variants={textVariant(1.1)} className={`${styles.sectionHeadText} text-center`}>
+          FAQ'S
         </motion.h1>
 
-        <motion.div
-          variants={zoomIn(1.2, 1)}
-          className="h-[2px] md:w-1/12 w-[20%]  bg-primary-red mt-[-40px]"
-        />
+        <motion.div variants={zoomIn(1.2, 1)} className="h-[2px] md:w-1/12 w-[20%]  bg-primary-red mt-[-40px]" />
 
-        <motion.div
-          variants={fadeIn("up", "tween", 0.5, 1)}
-          className="mx-auto flex w-full flex-col items-center justify-center"
-        >
-          <div className="h-[1px] w-full bg-gradient-to-l from-[#1E2230] to-primary-red"></div>
-
+        <motion.div variants={fadeIn("up", "tween", 0.5, 1)} className="mx-auto flex w-full flex-col gap-4 items-center justify-center">
           {faqsData.map((item, index) => {
             return (
-              <div className="w-full" key={index}>
+              <div className="w-full " key={index}>
                 <FaqCard title={item.title} content={item.content} />
-                <div className="h-[1px] w-full bg-gradient-to-l from-[#1E2230] to-primary-red"></div>
               </div>
             );
           })}

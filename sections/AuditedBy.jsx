@@ -23,8 +23,12 @@ const AuditedBy = () => {
             alt="BlockSafu logo dark"
           />
           <motion.p className="text-white md:w-[50%] text-center md:text-left">
-            Audited by the world’s leading security firm, <span className="font-bold text-purple-600">BlockSafu</span>, we're pleased to say that our
-            score of <span className="font-bold text-purple-600">9.3/10</span>, makes us one of the safest projects coming to the market this year.
+            Audited by the world’s leading security firm,{" "}
+            <span className="font-bold text-purple-600 hover:underline">
+              <a href="https://blocksafu.com/audit/0x1C07B56d1765D15Aa9d28C5e6cfe2cC2A765b27b">BlockSafu</a>
+            </span>
+            , we're pleased to say that our trust score of <span className="font-bold text-purple-600">100%</span>, makes us one of the safest
+            projects coming to the market this year.
           </motion.p>
         </motion.div>
       </motion.div>

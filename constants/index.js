@@ -216,14 +216,12 @@ export const newFeatures = [
   {
     imgUrl: "/vrpano.svg",
     title: "A new world",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
+    subtitle: "we have the latest update with new world for you to try never mind",
   },
   {
     imgUrl: "/headset.svg",
     title: "More realistic",
-    subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
+    subtitle: "In the latest update, your eyes are narrow, making the world more realistic than ever",
   },
 ];
 
@@ -279,8 +277,11 @@ export const roadmapDetails = [
     iconBg: "#E6DEDD",
     date: "Q4 2023",
     points: [
-      "Start the IDO sale with a defined start and end date.",
-      "Start the IEO sale with a defined start and end date.",
+      "Start the second phase of presale with a defined start and end date.",
+      "Start the third phase of presale with a defined start and end date.",
+      "Build communities using the different contest and programs.",
+      "Conduct AMA program with Binance.",
+      "Partnerships and Alliances with other blockchain projects, influencers, and industry leaders.",
     ],
   },
   {
@@ -290,14 +291,18 @@ export const roadmapDetails = [
     iconBg: "#E6DEDD",
     date: "Q1 2024",
     points: [
-      "ReXXchange (Dex & Swap)",
+      "> ReXXchange (Dex & Swap)",
       "Develop the foundational architecture.",
+      "Start the Last phase of presale with a defined start and end date.",
       "Initiate user interface and user experience design.",
+      "Start the IDO sale with a defined start and end date.",
       "Incorporate preliminary security measures.",
-      "ReXXpress (Blockchain Decentralized Crypto News Portal)",
+      "> ReXXpress (Blockchain Decentralized Crypto News Portal)",
+      "Start the IEO sale with a defined start and end date.",
       "Begin content partnerships for crypto news.",
       "Design an interactive user interface.",
       "Start development of transparent reporting protocols.",
+      "List ReXX Coins on DEX and CEX.",
     ],
   },
   {
@@ -307,19 +312,18 @@ export const roadmapDetails = [
     iconBg: "#E6DEDD",
     date: "Q2 2024",
     points: [
-      "ReXXchange",
+      "> ReXXchange",
       "Introduce advanced security protocols.",
       "Start beta testing for token swapping functionalities.",
       "Launch for the community and early adopters.",
-      "ReXXverse (Web3 & 3D Game)",
+      "> ReXXverse (Web3 & 3D Game)",
       "Initiate the design of the game environment.",
       "Begin development of Web3 protocols.",
       "Start integrating blockchain elements for in-game assets.",
     ],
   },
   {
-    title:
-      "Launch of ReXXpress; Beta Testing of ReXXverse; Development of ReXXconnect",
+    title: "Launch of ReXXpress; Beta Testing of ReXXverse; Development of ReXXconnect",
     company_name: "Meta",
     icon: "/meta.png",
     iconBg: "#E6DEDD",
@@ -387,8 +391,7 @@ export const roadmapDetails = [
     ],
   },
   {
-    title:
-      "Launch of ReXXplorer and ReXXVault; Beta Testing of ReXXchain; Development of ReXXpay",
+    title: "Launch of ReXXplorer and ReXXVault; Beta Testing of ReXXchain; Development of ReXXpay",
     company_name: "Meta",
     icon: "/meta.png",
     iconBg: "#E6DEDD",
@@ -448,8 +451,7 @@ export const faqsData = [
       "Rexx Coin is the native token and lifeblood of the Rexx ecosystem. It serves multiple purposes, from facilitating transactions and payments within our platforms to granting users special privileges and rewards. By holding or using Rexx Coins, users can unlock enhanced features, participate in governance decisions, and benefit from various incentives integrated across our projects.",
   },
   {
-    title:
-      "I' m new to cryptocurrencies. Where can I learn more about Rexx Coin and its projects?",
+    title: "I' m new to cryptocurrencies. Where can I learn more about Rexx Coin and its projects?",
     content:
       "Welcome to the future of the digital world! We've dedicated a section of our website to education, where beginners can find detailed explanations, tutorials, and insights about Rexx Coin and its ecosystem. Furthermore, our community forums and social media platforms are filled with helpful enthusiasts and experts eager to assist newcomers. Join us, and let's shape the future together!",
   },

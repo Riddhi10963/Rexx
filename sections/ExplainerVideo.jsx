@@ -25,9 +25,16 @@ const ExplainerVideo = () => {
             ref={playerRef}
             url={projectVideos.rexxExplainerVideo}
             controls={true}
+            light={true}
             className="max-h-[70%] shrink-0 m-5 rounded"
           /> */}
-          <video className="h-[350px] w-full rounded-lg" ref={playerRef} src={projectVideos.rexxExplainerVideo} controls />
+          <video
+            poster="/rexx-explainer-video-thumbnail.png"
+            className="h-[350px] w-full rounded-lg"
+            ref={playerRef}
+            src={projectVideos.rexxExplainerVideo}
+            controls
+          />
         </div>
       </motion.div>
     </section>
